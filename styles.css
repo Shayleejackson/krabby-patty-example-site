@@ -1,0 +1,135 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/25/The_Krusty_Krab.png");
+	background-position-y: 72%;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#total {
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.split{
+	column-count: 2;
+	column-gap: 0%;
+}
+
+.burgers {
+	width: 95%;
+}
+
+.sides{
+	float: right;
+	width: 95%;
+}
+
+.description{
+	text-wrap: wrap;
+	font-family: cursive;
+	font-size: small;
+}
+
+.price{
+	font-weight: 700;
+	font-size: medium;
+}
+
+.item{
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: medium;
+}
+
+.seperate{
+	border-bottom: 1px solid #888989;
+	margin: 2px 0;
+}
+
+.content{
+	margin-left: 1%;
+}
+
+.burgericon{
+	width: 15%;
+	height: 15%;
+	float: right;
+}
